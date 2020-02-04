@@ -3,7 +3,7 @@
 add_rules("mode.debug", "mode.release")
 
 -- add target
-target("test")
+target("kairos")
 
     -- set kind
     set_kind("binary")
