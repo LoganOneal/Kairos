@@ -564,3 +564,6 @@ MigrationBackup/
 # Xmake
 .xmake/
 build/
+
+# Visual Studio project files
+vs*

@@ -1,10 +1,7 @@
 add_requires("conan::Catch/1.9.6@bincrafters/stable", {alias = "catch"})
 add_requires("conan::protobuf/3.5.1@bincrafters/stable", {alias = "protobuf"})
-add_requires("conan::zeromq/4.3.2@_/_", {alias = "zeromq"})
+add_requires("conan::nanomsg/1.1.2@bincrafters/stable", {alias = "nanomsg"})
 add_requires("conan::libsodium/1.0.18@_/_", {alias = "libsodium"})
-
--- set c standard library to c++03
-set_languages("c99", "cxx03")
 
 -- add modes: debug and release
 add_rules("mode.debug", "mode.release")
